@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Dictionary>
+
+  <Value userCommand="get_id" deviceCommand="*idn?" />
+  <Value userCommand="get_event_status_register" deviceCommand="*esr?" />
+  <Value userCommand="get_event" deviceCommand="event?" />
+  <Value userCommand="get_device_event_status" deviceCommand="dese?" />
+  <Value userCommand="set_device_event_status" deviceCommand="dese" />
+  <Value userCommand="get_event_status" deviceCommand="ese?" />
+  <Value userCommand="set_event_status" deviceCommand="ese" />
+
+  <Value userCommand="get_busy" deviceCommand="busy?" />
+  <Value userCommand="get_opc" deviceCommand="*opc?" />
+
+  <Value userCommand="clear_menu" deviceCommand="clearmenu" />
+
+  <Value userCommand="set_verbose_off" deviceCommand="verbose off" />
+  <Value userCommand="set_verbose_on" deviceCommand="verbose on" />
+
+  <Value userCommand="set_header_off" deviceCommand="header off" />
+  <Value userCommand="set_header_on" deviceCommand="header on" />
+
+  <Value userCommand="set_scope_run" deviceCommand="acquire:state run" />
+  <Value userCommand="set_scope_stop" deviceCommand="acquire:state stop" />
+
+  <Value userCommand="message_show" deviceCommand="message:show" />
+  <Value userCommand="message_state" deviceCommand="message:state" />
+  <Value userCommand="message_clear" deviceCommand="message clear" />
+
+  <Value userCommand="autoset" deviceCommand="autoset execute" />
+  <Value userCommand="reset" deviceCommand="*rst" />
+  <Value userCommand="factory" deviceCommand="factory" />
+
+  <Value userCommand="hardcopy_port" deviceCommand="hardcopy:port" />
+  <Value userCommand="hardcopy_filename" deviceCommand="hardcopy:filename" />
+
+  <Value userCommand="set_horizontal_scale" deviceCommand="horizontal:scale" />
+  <Value userCommand="set_horizontal_position" deviceCommand="horizontal:position" />
+
+  <Value userCommand="set_acquire_mode_sample" deviceCommand="acquire:mode sample" />
+  <Value userCommand="set_acquire_mode_peakdetect" deviceCommand="acquire:mode peakdetect" />
+  <Value userCommand="set_acquire_mode_hires" deviceCommand="acquire:mode hires" />
+  <Value userCommand="set_acquire_mode_average" deviceCommand="acquire:mode average" />
+  <Value userCommand="set_acquire_mode_envelope" deviceCommand="acquire:mode envelope" />
+
+  <Value userCommand="wait_until_complete_command" deviceCommand="*wai" />
+
+  <!--Trigger-->
+
+  <Value userCommand="set_trigger_50_percent" deviceCommand="trigger:main setlevel" />
+  <Value userCommand="set_trigger_main_mode" deviceCommand="trigger:main:mode" />
+  <Value userCommand="set_trigger_main_edge_slope" deviceCommand="trigger:main:edge:slope" />
+  <Value userCommand="set_trigger_main_edge_source" deviceCommand="trigger:main:edge:source" />
+  <Value userCommand="set_trigger_main_edge_coupling" deviceCommand="trigger:main:edge:coupling" />
+  <Value userCommand="set_trigger_horizontal_position" deviceCommand="horizontal:trigger:position" />
+  <Value userCommand="set_trigger_level" deviceCommand="trigger:main:level" />
+
+  <!--Channels-->
+
+  <Value userCommand="set_mask_channel" deviceCommand="mask:source" />
+  <Value userCommand="set_acquire_avrg" deviceCommand="acquire:numavg" />
+  <Value userCommand="set_acquire_avrg_8" deviceCommand="acquire:numavg 8" />
+
+  <Value userCommand="set_ch1_impedance_50" deviceCommand="ch1:impedance fifty" />
+  <Value userCommand="set_ch2_impedance_50" deviceCommand="ch2:impedance fifty" />
+  <Value userCommand="set_ch3_impedance_50" deviceCommand="ch3:impedance fifty" />
+  <Value userCommand="set_ch4_impedance_50" deviceCommand="ch4:impedance fifty" />
+
+  <Value userCommand="set_ch1_impedance_mega" deviceCommand="ch1:impedance meg" />
+  <Value userCommand="set_ch2_impedance_mega" deviceCommand="ch2:impedance meg" />
+  <Value userCommand="set_ch3_impedance_mega" deviceCommand="ch3:impedance meg" />
+  <Value userCommand="set_ch4_impedance_mega" deviceCommand="ch4:impedance meg" />
+
+  <Value userCommand="show_channel_1" deviceCommand="select:ch1" />
+  <Value userCommand="show_channel_2" deviceCommand="select:ch2" />
+  <Value userCommand="show_channel_3" deviceCommand="select:ch3" />
+  <Value userCommand="show_channel_4" deviceCommand="select:ch4" />
+
+  <Value userCommand="set_ch1_position" deviceCommand="ch1:position" />
+  <Value userCommand="set_ch2_position" deviceCommand="ch2:position" />
+  <Value userCommand="set_ch3_position" deviceCommand="ch3:position" />
+  <Value userCommand="set_ch4_position" deviceCommand="ch4:position" />
+
+  <Value userCommand="set_ch1_scale_voltage" deviceCommand="ch1:scale" />
+  <Value userCommand="set_ch2_scale_voltage" deviceCommand="ch2:scale" />
+  <Value userCommand="set_ch3_scale_voltage" deviceCommand="ch3:scale" />
+  <Value userCommand="set_ch4_scale_voltage" deviceCommand="ch4:scale" />
+
+  <Value userCommand="set_ch1_coupling" deviceCommand="ch1:coupling" />
+  <Value userCommand="set_ch2_coupling" deviceCommand="ch2:coupling" />
+  <Value userCommand="set_ch3_coupling" deviceCommand="ch3:coupling" />
+  <Value userCommand="set_ch4_coupling" deviceCommand="ch4:coupling" />
+
+  <!--Measurements-->
+
+  <Value userCommand="set_measurement_1_type_amplitude" deviceCommand="measurement:meas1:type amp" />
+  <Value userCommand="set_measurement_2_type_amplitude" deviceCommand="measurement:meas2:type amp" />
+  <Value userCommand="set_measurement_3_type_amplitude" deviceCommand="measurement:meas3:type amp" />
+  <Value userCommand="set_measurement_4_type_amplitude" deviceCommand="measurement:meas4:type amp" />
+
+  <Value userCommand="set_measurement_1_type_peak2peak" deviceCommand="measurement:meas1:type pk2" />
+  <Value userCommand="set_measurement_2_type_peak2peak" deviceCommand="measurement:meas2:type pk2" />
+  <Value userCommand="set_measurement_3_type_peak2peak" deviceCommand="measurement:meas3:type pk2" />
+  <Value userCommand="set_measurement_4_type_peak2peak" deviceCommand="measurement:meas4:type pk2" />
+
+  <Value userCommand="set_measurement_1_type_frequency" deviceCommand="measurement:meas1:type freq" />
+  <Value userCommand="set_measurement_2_type_frequency" deviceCommand="measurement:meas2:type freq" />
+  <Value userCommand="set_measurement_3_type_frequency" deviceCommand="measurement:meas3:type freq" />
+  <Value userCommand="set_measurement_4_type_frequency" deviceCommand="measurement:meas4:type freq" />
+
+  <Value userCommand="set_measurement_1_type_negative_pulse" deviceCommand="measurement:meas1:type nwi" />
+  <Value userCommand="set_measurement_2_type_negative_pulse" deviceCommand="measurement:meas2:type nwi" />
+  <Value userCommand="set_measurement_3_type_negative_pulse" deviceCommand="measurement:meas3:type nwi" />
+  <Value userCommand="set_measurement_4_type_negative_pulse" deviceCommand="measurement:meas4:type nwi" />
+
+  <Value userCommand="set_measurement_1_type_positive_pulse" deviceCommand="measurement:meas1:type pwi" />
+  <Value userCommand="set_measurement_2_type_positive_pulse" deviceCommand="measurement:meas2:type pwi" />
+  <Value userCommand="set_measurement_3_type_positive_pulse" deviceCommand="measurement:meas3:type pwi" />
+  <Value userCommand="set_measurement_4_type_positive_pulse" deviceCommand="measurement:meas4:type pwi" />
+
+  <Value userCommand="set_measurement_1_type_fall" deviceCommand="measurement:meas1:type fall" />
+  <Value userCommand="set_measurement_2_type_fall" deviceCommand="measurement:meas2:type fall" />
+  <Value userCommand="set_measurement_3_type_fall" deviceCommand="measurement:meas3:type fall" />
+  <Value userCommand="set_measurement_4_type_fall" deviceCommand="measurement:meas4:type fall" />
+
+  <Value userCommand="set_measurement_1_type_rise" deviceCommand="measurement:meas1:type rise" />
+  <Value userCommand="set_measurement_2_type_rise" deviceCommand="measurement:meas2:type rise" />
+  <Value userCommand="set_measurement_3_type_rise" deviceCommand="measurement:meas3:type rise" />
+  <Value userCommand="set_measurement_4_type_rise" deviceCommand="measurement:meas4:type rise" />
+
+  <Value userCommand="set_measurement_1_type" deviceCommand="measurement:meas1:type" />
+  <Value userCommand="set_measurement_2_type" deviceCommand="measurement:meas2:type" />
+  <Value userCommand="set_measurement_3_type" deviceCommand="measurement:meas3:type" />
+  <Value userCommand="set_measurement_4_type" deviceCommand="measurement:meas4:type" />
+
+  <Value userCommand="set_measurement_1_source1" deviceCommand="measurement:meas1:source1" />
+  <Value userCommand="set_measurement_2_source1" deviceCommand="measurement:meas2:source1" />
+  <Value userCommand="set_measurement_3_source1" deviceCommand="measurement:meas3:source1" />
+  <Value userCommand="set_measurement_4_source1" deviceCommand="measurement:meas4:source1" />
+
+  <Value userCommand="set_measurement_1_source2" deviceCommand="measurement:meas1:source2" />
+  <Value userCommand="set_measurement_2_source2" deviceCommand="measurement:meas2:source2" />
+  <Value userCommand="set_measurement_3_source2" deviceCommand="measurement:meas3:source2" />
+  <Value userCommand="set_measurement_4_source2" deviceCommand="measurement:meas4:source2" />
+
+  <Value userCommand="set_measurement_1_state" deviceCommand="measurement:meas1:state" />
+  <Value userCommand="set_measurement_2_state" deviceCommand="measurement:meas2:state" />
+  <Value userCommand="set_measurement_3_state" deviceCommand="measurement:meas3:state" />
+  <Value userCommand="set_measurement_4_state" deviceCommand="measurement:meas4:state" />
+
+  <Value userCommand="set_measurement_reference_high" deviceCommand="measurement:reflevel:percent:high" />
+  <Value userCommand="set_measurement_reference_mid" deviceCommand="measurement:reflevel:percent:mid" />
+  <Value userCommand="set_measurement_reference_mid2" deviceCommand="measurement:reflevel:percent:mid2" />
+  <Value userCommand="set_measurement_reference_low" deviceCommand="measurement:reflevel:percent:low" />
+
+  <Value userCommand="set_measurement_reference_high_90" deviceCommand="measurement:reflevel:percent:high 90" />
+  <Value userCommand="set_measurement_reference_mid_50" deviceCommand="measurement:reflevel:percent:mid 50" />
+  <Value userCommand="set_measurement_reference_mid2_50" deviceCommand="measurement:reflevel:percent:mid2 50" />
+  <Value userCommand="set_measurement_reference_low_10" deviceCommand="measurement:reflevel:percent:low 10" />
+
+  <Value userCommand="get_measurement_1_value" deviceCommand="measurement:meas1:value?" />
+  <Value userCommand="get_measurement_2_value" deviceCommand="measurement:meas2:value?" />
+  <Value userCommand="get_measurement_3_value" deviceCommand="measurement:meas3:value?" />
+  <Value userCommand="get_measurement_4_value" deviceCommand="measurement:meas4:value?" />
+
+  <Value userCommand="set_measurement_1_name" deviceCommand="measurement:meas1:name" />
+  <Value userCommand="set_measurement_2_name" deviceCommand="measurement:meas2:name" />
+  <Value userCommand="set_measurement_3_name" deviceCommand="measurement:meas3:name" />
+  <Value userCommand="set_measurement_4_name" deviceCommand="measurement:meas4:name" />
+
+  <Value userCommand="set_measurement_1_units_prefix" deviceCommand="measurement:meas1:units:prefix" />
+  <Value userCommand="set_measurement_2_units_prefix" deviceCommand="measurement:meas2:units:prefix" />
+  <Value userCommand="set_measurement_3_units_prefix" deviceCommand="measurement:meas3:units:prefix" />
+  <Value userCommand="set_measurement_4_units_prefix" deviceCommand="measurement:meas4:units:prefix" />
+
+  <Value userCommand="set_measurement_1_desiredValue" deviceCommand="measurement:meas1:desiredValue" />
+  <Value userCommand="set_measurement_2_desiredValue" deviceCommand="measurement:meas2:desiredValue" />
+  <Value userCommand="set_measurement_3_desiredValue" deviceCommand="measurement:meas3:desiredValue" />
+  <Value userCommand="set_measurement_4_desiredValue" deviceCommand="measurement:meas4:desiredValue" />
+
+  <Value userCommand="set_measurement_1_threshold" deviceCommand="measurement:meas1:threshold" />
+  <Value userCommand="set_measurement_2_threshold" deviceCommand="measurement:meas2:threshold" />
+  <Value userCommand="set_measurement_3_threshold" deviceCommand="measurement:meas3:threshold" />
+  <Value userCommand="set_measurement_4_threshold" deviceCommand="measurement:meas4:threshold" />
+
+  <!--Quick configurations-->
+  <Value userCommand="initial_configuration" deviceCommand="clearmenu;header off;verbose off;message:state on"/>
+
+</Dictionary>

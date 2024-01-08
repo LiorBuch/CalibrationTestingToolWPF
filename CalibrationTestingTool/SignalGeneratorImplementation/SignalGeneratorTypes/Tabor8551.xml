@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Dictionary>
+
+  <Value userCommand="get_id" deviceCommand="*idn?" />
+  <Value userCommand="get_event_status_register" deviceCommand="*esr?" />
+  <Value userCommand="get_opc" deviceCommand="*opc?" />
+
+  <Value userCommand="message_clear" deviceCommand="message clear" />
+
+  <Value userCommand="set_output_mode_normal" deviceCommand="d0" />
+  <Value userCommand="set_output_mode_disabled" deviceCommand="d1" />
+  <Value userCommand="set_output_mode_complement_off" deviceCommand="c0" />
+  <Value userCommand="set_output_mode_complement_on" deviceCommand="c1" />
+
+  <Value userCommand="set_normal_operating_mode" deviceCommand="f0" />
+  <Value userCommand="set_pulse_operating_mode" deviceCommand="f1" />
+  <Value userCommand="set_fixed_operating_mode" deviceCommand="f2" />
+  <Value userCommand="set_pll_operating_mode" deviceCommand="f3" />
+
+  <Value userCommand="set_output_waveform_dc" deviceCommand="w0" />
+  <Value userCommand="set_output_waveform_sinewave" deviceCommand="w1" />
+  <Value userCommand="set_output_waveform_triangle" deviceCommand="w2" />
+  <Value userCommand="set_output_waveform_squarewave" deviceCommand="w3" />
+  <Value userCommand="set_output_waveform_positive_squarewave" deviceCommand="w4" />
+  <Value userCommand="set_output_waveform_negative_squarewave" deviceCommand="w5" />
+  <Value userCommand="set_output_waveform_ramp" deviceCommand="w6" />
+
+  <Value userCommand="set_frequency" deviceCommand="frq" />
+  <Value userCommand="get_frequency" deviceCommand="frq?" />
+  <Value userCommand="set_amplitude" deviceCommand="amp" />
+  <Value userCommand="get_amplitude" deviceCommand="amp?" />
+</Dictionary>

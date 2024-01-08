@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Dictionary>
+
+	<Value userCommand="check_parameter" deviceCommand="check:parameter" />
+	<Value userCommand="message_show" deviceCommand="message:show" />
+	<Value userCommand="message_show_ok_cancel" deviceCommand="message:show ok cancel" />
+
+</Dictionary>
